@@ -18,6 +18,8 @@
     background-image: url(https://thumbs.dreamstime.com/b/spring-summer-season-abstract-nature-background-grass-blue-sky-back-49716369.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    height: 150vh;
 }
 
 #text {
