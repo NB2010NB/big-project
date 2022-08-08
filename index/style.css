@@ -1,61 +1,66 @@
-
 .item1 {
-    height: 1vh;
-      grid-area: header;
-      
-    }
-    
-    .item2 {
-      grid-area: menu;
-      
-    }
-    .item3 {
-      grid-area: main;
-    
-    }
-    .item4{
-        grid-area: side-bar;
+  height: 1vh;
+  grid-area: header;
 
-    }
-    .item5 {
-      grid-area: footer;
-      display: flex;
-      justify-content:space-between;
-      font-size: larger;
-    }
-    
-    .grid-container {
-      display: grid;
-      height: 100vh;
-      grid-template-areas:
-        'header header header header header header'
-        'side-bar main main main main main'
-        'side-bar main main main main main'
-        'side-bar main main main main main'
-        'side-bar main main main main main'
-        'side-bar main main main main main'
-        'footer footer footer footer footer footer';
-      gap: 10px;
-      /* background-color: #060809; */
-      /* opacity: 0.65; */
-      padding: 10px;
-    }
-#cardsUsers{
-    display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-padding: 5px;
 }
-body{
-    background-color: pink;
+
+.item2 {
+  grid-area: menu;
+
 }
-#cards{
-    
-        display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-       
+
+.item3 {
+  grid-area: main;
+
+}
+
+.item4 {
+  grid-area: side-bar;
+
+}
+
+.item5 {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-areas:
+    'header header header header header header'
+    'side-bar main main main main main'
+    'side-bar main main main main main'
+    'side-bar main main main main main'
+    'side-bar main main main main main'
+    'side-bar main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  /* background-color: #060809; */
+  /* opacity: 0.65; */
+  padding: 10px;
+}
+
+#cardsUsers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+body {
+  background-color: rgb(191, 250, 152);
+}
+
+#cards {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+
 }

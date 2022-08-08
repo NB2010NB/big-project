@@ -1,0 +1,17 @@
+/* #topPage {
+    background-image: url(/Xdate/img/background-div.jpg=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 170vh;
+} */
+
+#cards-movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#logoMovie {
+    margin-left: 35%
+}

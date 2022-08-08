@@ -15,11 +15,11 @@
 }
 
 #form-login {
-    background-image: url(https://thumbs.dreamstime.com/b/spring-summer-season-abstract-nature-background-grass-blue-sky-back-49716369.jpg);
+    background-image: url(/Xdate/img/background-div.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 150vh;
+    height: 170vh;
 }
 
 #text {
@@ -64,9 +64,20 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: ;
+
 
 }
-.crd1{
+
+.crd1 {
     justify-content: space-between;
+}
+
+#butLogin {
+    border: 2px rgb(141, 248, 141) solid;
+    border-radius: 20px;
+}
+
+#butSign {
+    border: 2px rgb(141, 248, 141) solid;
+    border-radius: 20px;
 }

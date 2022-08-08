@@ -10,15 +10,15 @@ async function printData() {
   let dataMovie = await moviesApi()
 
   movieCards.innerHTML = dataMovie.map((item) => {
-    return `<div class="card" style="width: 18rem;">
+    return `<div class="card mb-5" style="width: 18rem;">
         <img class="card-img-top" src="${item.show.image.medium}" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">summary:</h5>
+          <p class="card-text">${item.show.summary}</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">name movie:${item.show.name}</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">genres:${item.show.genres}</li>
           <li class="list-group-item">Vestibulum at eros</li>
         </ul>
         <div class="card-body">

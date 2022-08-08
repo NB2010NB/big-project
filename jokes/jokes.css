@@ -1,17 +1,19 @@
-#title{
+#title {
     text-shadow: 2px 2px 5px red;
     text-align: center;
 }
 
-#textJoke{
-    color:blue;
+#textJoke {
+    color: blue;
     text-align: center;
 }
-#photoJoke{
+
+#photoJoke {
     display: flex;
     justify-content: center;
 }
-#randomH2{
-    
+
+#randomH2 {
+
     text-align: center;
 }

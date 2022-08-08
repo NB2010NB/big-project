@@ -12,7 +12,7 @@ async function jokesRnd() {
     jokeText.innerText = jokesRn.value.joke
 }
 function loadJokes() {
-    setInterval(() => { jokesRnd() }, 2000)
+    setInterval(() => { jokesRnd() }, 3000)
 } loadJokes()
 // const photoJokes = document.getElementById("joke")
 // photoJokes.innerHTML = im

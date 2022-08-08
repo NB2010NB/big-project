@@ -8,7 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/jokes/jokes.css">
-  
+
 </head>
 
 <body>
@@ -33,8 +33,17 @@
         <li class="nav-item">
           <a class="nav-link" href="/movie/movie.html">movie</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contactUs/conactUs.html">Contact Us</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">natan belay project</a>
@@ -47,12 +56,12 @@
     </div>
   </nav>
   <div id="photoJoke">
-    <img width="300vw" height="300vh"  id="smile" src="/img/jokes/SIMCHA_PORETZET.jpg">
-    
+    <img width="300vw" height="300vh" id="smile" src="/jokes/img/SIMCHA_PORETZET.jpg">
+
   </div>
   <div id="jok">
     <h2 id="randomH2">random jokes:</h2>
-  <p id="textJoke"></p>
+    <p id="textJoke"></p>
   </div>
   <script src="/jokes/jokes.js"></script>
 </body>
