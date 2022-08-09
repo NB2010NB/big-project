@@ -13,6 +13,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/index/index.html">Everything from everything</a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -55,7 +56,51 @@
     </div>
   </nav>
   <div id="topPage">
+    <div id="form-publication"><br><br><br><br>
+      <h2 class="title">Yad2 -phones</h2>
+      <div id="text">
+        <h6>YAD2 is the largest website in the world in the world of sales.<br>
+          In YAD2 you can advertise and sell and even give your old device as a gift to a person who needs it,<br>
+          and at the same time search for a new device for you at the best price in the market.<br><br>
+          To advertise your device, please fill in the fields in the form:</h6>
+      </div>
+      <form id="formm">
+        <div id="brand"> <span>Brand:</span>
+          <input type="text">
+        </div><br>
+        <div id="createdAt"> <span>CreatedAt:</span>
+          <input type="text">
+        </div><br>
+        <div id="isAvailable"> <span>IsAvailable:</span>
+          <input type="text">
+        </div><br>
+        <div id="color"> <span>Color:</span>
+          <input type="text">
+        </div><br>
+        <div id="price"> <span>Price:</span>
+          <input type="text">
+        </div><br>
 
+        <div id="gender"> <span>Purpose:</span><br>
+          <input type="radio" name="gender"><strong>Sell</strong><br>
+          <input type="radio" name="gender"><strong>Give</strong>
+        </div><br>
+        <div id="address"> <span>Details:</span>
+          <textarea rows="5"></textarea>
+        </div><br>
+        <h4>contact:</h4>
+        <div id="price"> <span>Full Name:</span>
+          <input type="text">
+        </div><br>
+        <div id="price"> <span>E-mail:</span>
+          <input type="email">
+        </div><br>
+        <div id="price"> <span>Number Phone:</span>
+          <input type="text">
+        </div>
+        <button id="butPublic">for publication</button>
+      </form>
+    </div>
   </div>
   <div id="cards"></div>
   <script src="/phone/phone.js"></script>

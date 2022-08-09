@@ -1,13 +1,18 @@
-#topPage {
-    background-image: url(/Xdate/img/background-div.jpg=);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* width: 100vw; */
-    /* height: 170vh; */
-}
-
 #cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+#form-publication{
+    text-align: center;
+}
+#butPublic{
+    border-radius: 20px;
+}
+/* #topPage{
+    background-image: url(/phone/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 170vh;
+} */
