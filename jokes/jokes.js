@@ -13,6 +13,6 @@ async function jokesRnd() {
 }
 function loadJokes() {
     setInterval(() => { jokesRnd() }, 3000)
-} loadJokes()
+} loadJokes
 // const photoJokes = document.getElementById("joke")
 // photoJokes.innerHTML = im

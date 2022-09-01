@@ -6,7 +6,7 @@ async function moviesApi() {
   return movie
 }
 const movieCards = document.getElementById("cards-movie")
-async function printData() {
+async function PrintData() {
   let dataMovie = await moviesApi()
 
   movieCards.innerHTML = dataMovie.map((item) => {
